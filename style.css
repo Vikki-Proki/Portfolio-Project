@@ -17,6 +17,8 @@
   width: 100%;
 }
 
+a {color: var(--secondary-color);}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 44px;
@@ -78,4 +80,12 @@ p {
   border-radius: 10px;
   border: 1px solid var(--secondary-color);
   margin: 40px 5px;
+}
+
+.expert {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  color: #ffffff;
+  width: 100%;3
 }
