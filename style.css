@@ -9,10 +9,37 @@
   padding: 160px 20px;
 }
 
+.container {
+  background: var(--brand-color);
+  text-align: center;
+  margin: 20px;
+  padding: 25px;
+  width: 100%;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 2;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  h4 {
+    font-size: 28px;
+  }
+  .hero {
+    padding: 80px 20px;
+  }
+}
+
 body {
-  background-color: var(--brand-color);
+  background: var(--brand-color);
   display: block;
   margin: auto;
+  width: 100%;
 }
 
 h1 {
@@ -36,7 +63,14 @@ img {
 }
 
 p {
-  color: black;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.row {
+  padding: 40px 20px;
 }
 
 .custom-btn {
