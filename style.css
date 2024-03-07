@@ -10,12 +10,13 @@
 }
 
 body {
+  background-color: var(--brand-color);
   display: block;
   margin: auto;
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 100px;
   font-weight: bold;
   color: #ffffff;
 }
@@ -26,6 +27,16 @@ h3 {
 }
 h4 {
   color: #bbcbce;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+}
+
+p {
+  color: #ffffff;
 }
 
 .custom-btn {
