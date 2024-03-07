@@ -1,0 +1,36 @@
+:root {
+  --brand-color: #463f3c;
+  --secondary-color: #f2504f;
+  --font-family: "Raleway", sans-serif;
+}
+
+.hero {
+  background: var(--brand-color);
+  padding: 160px 20px;
+}
+
+body {
+  display: block;
+  margin: auto;
+}
+
+h1 {
+  font-size: 96px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+h3 {
+  font-size: 80px;
+  color: #bbcbce;
+}
+h4 {
+  color: #bbcbce;
+}
+
+.custom-btn {
+  color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid var(--secondary-color);
+  margin: 40px 5px;
+}
