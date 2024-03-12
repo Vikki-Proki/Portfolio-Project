@@ -71,9 +71,14 @@ p {
   color: #ffffff;
 }
 
+a {color:#ffffff;}
+
 .row {
   padding: 40px 20px;
 }
+
+.about-me {text-align: center;
+margin-top: 10px;}
 
 .custom-btn {
   color: #ffffff;
