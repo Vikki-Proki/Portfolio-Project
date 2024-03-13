@@ -118,3 +118,21 @@ color:#ffffff;}
 
 nav a:hover, nav li:active {color:var(--secondary-color);
 transition: all 150ms ease-in-out;}
+
+footer {margin-top: 40px;
+border-top: 1px solid #ffffff;
+padding: 20px;}
+
+footer h4{margin-top: 15px;}
+
+footer .social-links a {margin:10px;
+color:var(--secondary-color);
+background:#ffffff;
+padding:10px 14px;
+font-size:14px;
+border-radius: 50%;
+transition: all 150ms ease-in-out;}
+
+footer .social-links a:hover{background: var(--secondary-color);
+color: #ffffff;}
+
