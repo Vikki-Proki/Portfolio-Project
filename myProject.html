@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Christmas Pagama Party</title>
+    <style>
+      body {
+        background: linear-gradient(#c70039, #00ab66);
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: Arial, sans-serif;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      }
+      h1 {
+        text-align: center;
+        color: #ff0000;
+        font-size: 30px;
+      }
+      h2 {
+        text-align: center;
+        color: #006400;
+        font-size: 26px;
+      }
+      img {
+        display: block;
+        margin: auto;
+        border-radius: 5%;
+        width: 300px;
+        height: auto;
+      }
+      p {
+        text-align: center;
+        color: black;
+        font-size: 14px;
+        padding: 1.5em;
+        display: block;
+        margin: auto;
+      }
+      strong {
+        text-align: center;
+        font-size: 18px;
+        color: #006400;
+      }
+      button {
+        border-radius: 25px;
+        margin: 0 auto;
+        display: block;
+        background-color: #ffffff;
+        border: 1px solid #006400;
+        color: #ff0000;
+        font-size: 16px;
+        text-decoration: solid;
+        line-height: 22px;
+        padding: 16px 24px;
+        text-decoration: none;
+        transition: all 200ms ease;
+        box-shadow: 10px;
+      }
+      button:hover {
+        color: #006400;
+        background: #ffffff;
+      }
+      class.footer {
+        font-size: 6px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="conteiner">
+      <h1>
+        Christmas Pagama <br />
+        🎉Party🎉
+        <hr />
+      </h1>
+      <h2><em>The cuttest event of this holidays</em></h2>
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/107/142/original/IMG_3723.jpeg?1702535189"
+        alt="Christmas Pagama Party"
+        width="300"
+        <br
+      />
+      <p>
+        On Friday, Dec. 22 Happy Show will present Christmas Pagama Party.
+        <br />
+        Grab your favorite friends, put on your most comfortable pajama and join
+        in for a funny event. <br />The beginning at 4p.m <br />It’s only for
+        children from 7 to 12 years old!
+        <br />
+        <strong>🍩Sweet gift is waiting for everyone🍩</strong>
+      </p>
+      <button>Reservation</button>
+      <p class="footer">
+        This page was built by
+        <a
+          href="https://instagram.com/vika_proki?igshid=MzMyNGUyNmU2YQ%3D%3D&utm_source=qr/"
+          target="_blank"
+        >
+          <br />
+          Viktoriia Prokipchuk
+        </a>
+      </p>
+    </div>
+    <script>
+      function reservation() {
+        let name = prompt("What is your name?");
+        let age = prompt("How old is your child?");
+        let childsName = prompt("What is your child's name?");
+        if (age >= 7 && age <= 12) {
+          let h2 = document.querySelector("h2");
+          h2.innerHTML =
+            "Hi, " +
+            name +
+            "! We are waiting for " +
+            childsName +
+            " on the party🎉";
+        } else {
+          let h2 = document.querySelector("h2");
+          h2.innerHTML =
+            "Sorry, " +
+            name +
+            "! " +
+            childsName +
+            " cann't visit the party this time😔";
+        }
+      }
+      let contactButton = document.querySelector("button");
+      contactButton.addEventListener("click", reservation);
+    </script>
+  </body>
+</html>
