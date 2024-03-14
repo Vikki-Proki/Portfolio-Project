@@ -19,7 +19,7 @@ body{background: var(--brand-color);}
   width: 100%;
 }
 
-a {color: var(--secondary-color);}
+.container a {color: var(--secondary-color);}
 
 @media (max-width: 900px) {
   h1 {
