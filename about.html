@@ -35,7 +35,7 @@
       src="https://kit.fontawesome.com/ad01cfbd35.js"
       crossorigin="anonymous"
     ></script>
-    <title>About me</title>
+    <title>About Viktoriia Prokipchuk</title>
     <meta
       name="description"
       content="Viktoria's Prokipchuk portfolio, front-end developer, based in Ukraine"
@@ -48,17 +48,17 @@
           <h4 class="d-none d-lg-block">Viktoriia Prokipchuk</h4>
           <h4 class="d-block d-md-none">VP</h4>
           <ul>
+            <li>
+              <a href="/" title="Homepage">Home</a>
+            </li>
             <li class="active">
-              <a href="/index.html">Home</a>
+              <a href="/about.html" title="About Viktoriia page">About</a>
             </li>
             <li>
-              <a href="/">About</a>
+              <a href="/work.html" tile="Viktoriia's projects">Portfolio</a>
             </li>
             <li>
-              <a href="/work.html">Portfolio</a>
-            </li>
-            <li>
-              <a href="/contact.html">Contact</a>
+              <a href="/contact.html" title="Contact Viktoriia">Contact</a>
             </li>
           </ul>
         </nav>
@@ -67,7 +67,11 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-6">
-            <img src="/images/IMG_4715.jpg" class="img-fluid" />
+            <img
+              src="/images/IMG_4715.jpg"
+              class="img-fluid"
+              alt="Viktoriia's photo"
+            />
           </div>
           <div class="col-lg-6">
             <p>
@@ -76,16 +80,61 @@
               neglegentur. Lorem Erant commodo fastidii ea pro. Sed te postea
               nominati signiferumque, ius cu ullum malorum repudiare.
             </p>
-            <button
-              type="button"
+            <a
+              href="/contact.html"
               class="btn custom-btn custom-btn-text btn-lg active"
               style="background-color: var(--secondary-color); color: #ffffff"
+              role="button"
+              aria-pressed="true"
+              title="Contact page"
+              >Hire me</a
             >
-              Hire me
-            </button>
           </div>
         </div>
       </div>
+      <footer>
+        <div class="social-links d-flex justify-content-between">
+          <h4 class="d-none d-md-block">Viktoriia Prokipchuk</h4>
+          <h4 class="d-block d-md-none">VP</h4>
+          <a
+            href="mailto:prokipchuk.viktoriia@gmail.com"
+            target="_blank"
+            title="Drop a message"
+          >
+            <i class="fa-regular fa-envelope"></i
+          ></a>
+          <a
+            href="https://github.com/Vikki-Proki"
+            target="_blank"
+            title="GitHub"
+          >
+            <i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/viktoriia-prokipchuk-4123862a1/"
+            target="_blank"
+            title="LinkedIn"
+          >
+            <i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/vika_proki/"
+            target="_blank"
+            title="Instagram"
+          >
+            <i class="fa-brands fa-instagram"></i
+          ></a>
+        </div>
+        <p class="text-center mt-3">
+          This project was coded by Viktoriia Prokipchuk and it's
+          <a
+            href="https://github.com/Vikki-Proki/Portfolio-Project"
+            target="_blank"
+            title="GitHub"
+            >open-sourced</a
+          >
+        </p>
+      </footer>
     </div>
   </body>
 </html>
